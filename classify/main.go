@@ -3,4 +3,6 @@ package main
 import (
 	"encoding/csv"
 	"errors"
-	"fla
+	"flag"
+	"fmt"
+	"image"
