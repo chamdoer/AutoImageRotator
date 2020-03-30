@@ -7,4 +7,6 @@ import (
 	"fmt"
 	"image"
 	_ "image/jpeg"
-	_ "image/png
+	_ "image/png"
+	"os"
+	"path/filepat
