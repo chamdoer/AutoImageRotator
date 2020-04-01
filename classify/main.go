@@ -9,4 +9,7 @@ import (
 	_ "image/jpeg"
 	_ "image/png"
 	"os"
-	"path/filepat
+	"path/filepath"
+	"strings"
+
+	"git
