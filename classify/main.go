@@ -12,4 +12,5 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/unixpickle/autorot"
 	"git
