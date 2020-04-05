@@ -17,4 +17,5 @@ import (
 	"github.com/unixpickle/serializer"
 )
 
-func main(
+func main() {
+	var dirPath string
