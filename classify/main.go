@@ -19,3 +19,4 @@ import (
 
 func main() {
 	var dirPath string
+	var netPath string
