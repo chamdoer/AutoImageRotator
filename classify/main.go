@@ -20,3 +20,4 @@ import (
 func main() {
 	var dirPath string
 	var netPath string
+	flag.StringVar(&di
