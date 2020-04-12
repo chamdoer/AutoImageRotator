@@ -20,4 +20,5 @@ import (
 func main() {
 	var dirPath string
 	var netPath string
-	flag.StringVar(&dirPath, "dir", "", "image di
+	flag.StringVar(&dirPath, "dir", "", "image directory")
+	flag.StringVa
