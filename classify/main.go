@@ -21,4 +21,5 @@ func main() {
 	var dirPath string
 	var netPath string
 	flag.StringVar(&dirPath, "dir", "", "image directory")
-	flag.StringVar(&netPath, "net", "", "netw
+	flag.StringVar(&netPath, "net", "", "network path")
+	flag.Parse
