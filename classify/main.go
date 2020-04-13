@@ -22,4 +22,5 @@ func main() {
 	var netPath string
 	flag.StringVar(&dirPath, "dir", "", "image directory")
 	flag.StringVar(&netPath, "net", "", "network path")
-	flag.Parse
+	flag.Parse()
+	if dirPath == "" || 
