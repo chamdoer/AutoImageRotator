@@ -23,4 +23,5 @@ func main() {
 	flag.StringVar(&dirPath, "dir", "", "image directory")
 	flag.StringVar(&netPath, "net", "", "network path")
 	flag.Parse()
-	if dirPath == "" || 
+	if dirPath == "" || netPath == "" {
+		essentials.Di
