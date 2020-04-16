@@ -24,4 +24,4 @@ func main() {
 	flag.StringVar(&netPath, "net", "", "network path")
 	flag.Parse()
 	if dirPath == "" || netPath == "" {
-		essentials.Di
+		essentials.Die("Required flags: -net and -di
