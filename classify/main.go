@@ -26,3 +26,5 @@ func main() {
 	if dirPath == "" || netPath == "" {
 		essentials.Die("Required flags: -net and -dir. See -help for more.")
 	}
+
+	var net *autoro
