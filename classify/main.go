@@ -28,4 +28,4 @@ func main() {
 	}
 
 	var net *autorot.Net
-	if err := serializer.L
+	if err := serializer.LoadAny(netPath, &net); 
