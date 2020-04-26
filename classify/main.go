@@ -27,4 +27,5 @@ func main() {
 		essentials.Die("Required flags: -net and -dir. See -help for more.")
 	}
 
-	var net *autoro
+	var net *autorot.Net
+	if err := serializer.L
