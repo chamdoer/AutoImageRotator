@@ -28,4 +28,5 @@ func main() {
 	}
 
 	var net *autorot.Net
-	if err := serializer.LoadAny(netPath, &net); 
+	if err := serializer.LoadAny(netPath, &net); err != nil {
+		essen
