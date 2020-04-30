@@ -32,4 +32,5 @@ func main() {
 		essentials.Die("Load network failed:", err)
 	}
 
-	outWriter 
+	outWriter := csv.NewWriter(os.Stdout)
+	err :=
