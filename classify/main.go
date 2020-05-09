@@ -33,4 +33,4 @@ func main() {
 	}
 
 	outWriter := csv.NewWriter(os.Stdout)
-	err := filepath.Walk(dirPath, func(path string, in
+	err := filepath.Walk(dirPath, func(path string, info os.FileInfo, err 
