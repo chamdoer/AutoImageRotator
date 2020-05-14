@@ -37,4 +37,5 @@ func main() {
 		if err != nil {
 			return err
 		}
-		ext := strings.ToLower(filepath.Ex
+		ext := strings.ToLower(filepath.Ext(info.Name()))
+		if ext == "
