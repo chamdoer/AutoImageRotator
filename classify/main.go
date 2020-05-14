@@ -38,4 +38,4 @@ func main() {
 			return err
 		}
 		ext := strings.ToLower(filepath.Ext(info.Name()))
-		if ext == "
+		if ext == ".jpg" || ext == ".
