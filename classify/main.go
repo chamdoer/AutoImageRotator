@@ -45,3 +45,5 @@ func main() {
 		}
 		return nil
 	})
+
+	if err != nil {
