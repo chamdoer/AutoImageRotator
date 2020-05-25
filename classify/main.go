@@ -40,4 +40,8 @@ func main() {
 		ext := strings.ToLower(filepath.Ext(info.Name()))
 		if ext == ".jpg" || ext == ".jpeg" || ext == ".png" {
 			if err := processImage(outWriter, net, path); err != nil {
-				fmt.Fprintln(os.Stderr, e
+				fmt.Fprintln(os.Stderr, err)
+			}
+		}
+		return nil
+	})
