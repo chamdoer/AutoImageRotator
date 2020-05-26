@@ -47,3 +47,4 @@ func main() {
 	})
 
 	if err != nil {
+		essentials.Die
