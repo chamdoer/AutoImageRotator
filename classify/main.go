@@ -47,4 +47,4 @@ func main() {
 	})
 
 	if err != nil {
-		essentials.Die
+		essentials.Die("Directory listi
