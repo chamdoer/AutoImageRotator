@@ -48,4 +48,7 @@ func main() {
 
 	if err != nil {
 		essentials.Die("Directory listing failed:", err)
-	
+	}
+}
+
+func processImage(w *csv.Wri
