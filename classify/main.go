@@ -51,4 +51,4 @@ func main() {
 	}
 }
 
-func processImage(w *csv.Wri
+func processImage(w *csv.Writer, network *autorot.Net, 
