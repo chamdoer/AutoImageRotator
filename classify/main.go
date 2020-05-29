@@ -47,4 +47,5 @@ func main() {
 	})
 
 	if err != nil {
-		essentials.Die("Directory listi
+		essentials.Die("Directory listing failed:", err)
+	
