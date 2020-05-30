@@ -51,4 +51,5 @@ func main() {
 	}
 }
 
-func processImage(w *csv.Writer, network *autorot.Net, 
+func processImage(w *csv.Writer, network *autorot.Net, imgPath string) error {
+	f
