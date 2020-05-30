@@ -52,4 +52,4 @@ func main() {
 }
 
 func processImage(w *csv.Writer, network *autorot.Net, imgPath string) error {
-	f
+	f, err := os.Open(i
