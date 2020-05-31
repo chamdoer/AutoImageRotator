@@ -54,4 +54,4 @@ func main() {
 func processImage(w *csv.Writer, network *autorot.Net, imgPath string) error {
 	f, err := os.Open(imgPath)
 	if err != nil {
-		r
+		return errors.New("proces
