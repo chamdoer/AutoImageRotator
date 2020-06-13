@@ -59,4 +59,5 @@ func processImage(w *csv.Writer, network *autorot.Net, imgPath string) error {
 	defer f.Close()
 	img, _, err := image.Decode(f)
 	if err != nil {
-		return errors.New("process image " + imgPat
+		return errors.New("process image " + imgPath + ": " + err.Error())
+	
