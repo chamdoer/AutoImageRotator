@@ -61,4 +61,5 @@ func processImage(w *csv.Writer, network *autorot.Net, imgPath string) error {
 	if err != nil {
 		return errors.New("process image " + imgPath + ": " + err.Error())
 	}
-	angle, confidence := 
+	angle, confidence := network.Evaluate(img)
+	w.W
