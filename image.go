@@ -5,4 +5,5 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/unixpickle
+	"github.com/unixpickle/num-analysis/linalg"
+	
