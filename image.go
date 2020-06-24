@@ -6,4 +6,4 @@ import (
 	"math"
 
 	"github.com/unixpickle/num-analysis/linalg"
-	
+	"github.com/unixpickle/num-a
