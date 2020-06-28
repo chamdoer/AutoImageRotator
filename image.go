@@ -9,4 +9,5 @@ import (
 	"github.com/unixpickle/num-analysis/linalg/ludecomp"
 )
 
-// Rotate rotates an image arou
+// Rotate rotates an image around its center and returns
+/
