@@ -10,4 +10,4 @@ import (
 )
 
 // Rotate rotates an image around its center and returns
-/
+// the largest centered squ
