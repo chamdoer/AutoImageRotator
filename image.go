@@ -10,4 +10,5 @@ import (
 )
 
 // Rotate rotates an image around its center and returns
-// the largest centered square cropping th
+// the largest centered square cropping that does not go
+// out of the 
