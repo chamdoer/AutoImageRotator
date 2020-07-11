@@ -13,4 +13,4 @@ import (
 // the largest centered square cropping that does not go
 // out of the rotated image's bounds.
 //
-// The angle is sp
+// The angle is specified in clockwis
