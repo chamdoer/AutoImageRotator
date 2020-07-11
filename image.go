@@ -11,4 +11,6 @@ import (
 
 // Rotate rotates an image around its center and returns
 // the largest centered square cropping that does not go
-// out of the rotated image's bou
+// out of the rotated image's bounds.
+//
+// The angle is sp
