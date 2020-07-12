@@ -13,4 +13,6 @@ import (
 // the largest centered square cropping that does not go
 // out of the rotated image's bounds.
 //
-// The angle is specified in clockwis
+// The angle is specified in clockwise radians.
+//
+// The 
