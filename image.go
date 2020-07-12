@@ -15,4 +15,4 @@ import (
 //
 // The angle is specified in clockwise radians.
 //
-// The 
+// The outSize argument specifies t
