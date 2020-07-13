@@ -16,4 +16,5 @@ import (
 // The angle is specified in clockwise radians.
 //
 // The outSize argument specifies the side length of the
-// r
+// resulting image.
+func Rota
