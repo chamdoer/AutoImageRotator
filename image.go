@@ -17,4 +17,4 @@ import (
 //
 // The outSize argument specifies the side length of the
 // resulting image.
-func Rota
+func Rotate(img image.Image, angle float6
