@@ -17,4 +17,5 @@ import (
 //
 // The outSize argument specifies the side length of the
 // resulting image.
-func Rotate(img image.Image, angle float64, outSize int) im
+func Rotate(img image.Image, angle float64, outSize int) image.Image {
+	cos := math.Cos(a
