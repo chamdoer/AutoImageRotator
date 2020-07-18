@@ -18,4 +18,5 @@ import (
 // The outSize argument specifies the side length of the
 // resulting image.
 func Rotate(img image.Image, angle float64, outSize int) image.Image {
-	cos := math.Cos(a
+	cos := math.Cos(angle)
+	sin := math.Sin(angle)
