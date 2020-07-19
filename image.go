@@ -21,4 +21,5 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 	cos := math.Cos(angle)
 	sin := math.Sin(angle)
 
-	width := float64(img
+	width := float64(img.Bounds().Dx())
+	hei
