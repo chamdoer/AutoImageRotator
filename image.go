@@ -23,4 +23,5 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 
 	width := float64(img.Bounds().Dx())
 	height := float64(img.Bounds().Dy())
-	axisBasis :=
+	axisBasis := &linalg.Matrix{
+		Ro
