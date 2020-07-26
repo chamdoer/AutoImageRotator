@@ -26,4 +26,5 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 	axisBasis := &linalg.Matrix{
 		Rows: 2,
 		Cols: 2,
-		Data: 
+		Data: []float64{
+			cos * widt
