@@ -27,4 +27,4 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 		Rows: 2,
 		Cols: 2,
 		Data: []float64{
-			cos * widt
+			cos * width / 2, -sin * heig
