@@ -30,4 +30,7 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 			cos * width / 2, -sin * height / 2,
 			sin * width / 2, cos * height / 2,
 		},
+	}
+
+	inv := ludecomp.Decompose(axisBasis)
 	
