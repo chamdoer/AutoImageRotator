@@ -33,4 +33,5 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 	}
 
 	inv := ludecomp.Decompose(axisBasis)
-	
+	var sideLength float64
+	fo
