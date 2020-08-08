@@ -42,4 +42,5 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 
 	inImage := newRGBACache(img)
 	newImage := image.NewRGBA(image.Rect(0, 0, int(outSize), int(outSize)))
-	for x := 0; x < int(outSize); 
+	for x := 0; x < int(outSize); x++ {
+		for y := 0; y < int(o
