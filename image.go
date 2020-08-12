@@ -47,4 +47,4 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 			xOff := scale*float64(x) - sideLength/2
 			yOff := scale*float64(y) - sideLength/2
 			newX := cos*xOff + sin*yOff + width/2
-			newY := cos*
+			newY := cos*yOff - sin*xOff + 
