@@ -50,3 +50,6 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 			newY := cos*yOff - sin*xOff + height/2
 			newImage.SetRGBA(x, y, interpolate(inImage, newX, newY))
 		}
+	}
+
+	return newImage
