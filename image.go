@@ -53,3 +53,6 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 	}
 
 	return newImage
+}
+
+func rectFits(axis
