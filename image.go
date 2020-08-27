@@ -58,4 +58,5 @@ func Rotate(img image.Image, angle float64, outSize int) image.Image {
 func rectFits(axisBasis *ludecomp.LU, sideLength float64) bool {
 	for xScale := -1; xScale <= 1; xScale += 2 {
 		for yScale := -1; yScale <= 1; yScale += 2 {
-			corne
+			corner := []float64{
+				s
