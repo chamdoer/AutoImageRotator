@@ -60,4 +60,5 @@ func rectFits(axisBasis *ludecomp.LU, sideLength float64) bool {
 		for yScale := -1; yScale <= 1; yScale += 2 {
 			corner := []float64{
 				sideLength * float64(xScale) / 2,
-				side
+				sideLength * float64(yScale) / 2,
+	
