@@ -63,4 +63,5 @@ func rectFits(axisBasis *ludecomp.LU, sideLength float64) bool {
 				sideLength * float64(yScale) / 2,
 			}
 			solution := axisBasis.Solve(corner)
-			if sol
+			if solution.MaxAbs() > 1 {
+				retur
