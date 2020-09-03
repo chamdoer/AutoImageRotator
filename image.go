@@ -71,4 +71,4 @@ func rectFits(axisBasis *ludecomp.LU, sideLength float64) bool {
 	return true
 }
 
-func interpolate(img *
+func interpolate(img *rgbaCache, x, y float
