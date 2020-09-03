@@ -68,4 +68,7 @@ func rectFits(axisBasis *ludecomp.LU, sideLength float64) bool {
 			}
 		}
 	}
-	return t
+	return true
+}
+
+func interpolate(img *
