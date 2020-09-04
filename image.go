@@ -72,4 +72,5 @@ func rectFits(axisBasis *ludecomp.LU, sideLength float64) bool {
 }
 
 func interpolate(img *rgbaCache, x, y float64) color.RGBA {
-	x1
+	x1 := int(x)
+	x2 := int(x 
