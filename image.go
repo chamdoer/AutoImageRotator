@@ -76,4 +76,4 @@ func interpolate(img *rgbaCache, x, y float64) color.RGBA {
 	x2 := int(x + 1)
 	y1 := int(y)
 	y2 := int(y + 1)
-	amoun
+	amountX1 := float64(x2) 
