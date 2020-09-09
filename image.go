@@ -81,4 +81,5 @@ func interpolate(img *rgbaCache, x, y float64) color.RGBA {
 	clipRange(0, img.Width(), &x1, &x2)
 	clipRange(0, img.Height(), &y1, &y2)
 
-	a11 := amou
+	a11 := amountX1 * amountY1
+	r11, g11, b1
