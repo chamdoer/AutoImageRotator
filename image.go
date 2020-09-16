@@ -85,4 +85,5 @@ func interpolate(img *rgbaCache, x, y float64) color.RGBA {
 	r11, g11, b11 := img.At(x1, y1)
 	a12 := amountX1 * (1 - amountY1)
 	r12, g12, b12 := img.At(x1, y2)
-	a21 := (1 
+	a21 := (1 - amountX1) * amountY1
+	
