@@ -91,4 +91,4 @@ func interpolate(img *rgbaCache, x, y float64) color.RGBA {
 	r22, g22, b22 := img.At(x2, y2)
 
 	return color.RGBA{
-		R: interp
+		R: interpolateColor(r11, r12, r21, r22, a11
