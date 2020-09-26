@@ -93,4 +93,9 @@ func interpolate(img *rgbaCache, x, y float64) color.RGBA {
 	return color.RGBA{
 		R: interpolateColor(r11, r12, r21, r22, a11, a12, a21, a22),
 		G: interpolateColor(g11, g12, g21, g22, a11, a12, a21, a22),
-		B: interpolateColor(b11, b12, b21, b22, a11, a12, a21
+		B: interpolateColor(b11, b12, b21, b22, a11, a12, a21, a22),
+		A: 0xff,
+	}
+}
+
+fu
