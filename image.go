@@ -98,4 +98,4 @@ func interpolate(img *rgbaCache, x, y float64) color.RGBA {
 	}
 }
 
-fu
+func clipRange(min, max int, vals ..
