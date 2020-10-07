@@ -104,4 +104,9 @@ func clipRange(min, max int, vals ...*int) {
 			*v = min
 		}
 		if *v >= max {
-			*v = ma
+			*v = max - 1
+		}
+	}
+}
+
+f
