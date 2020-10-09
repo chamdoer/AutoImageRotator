@@ -109,4 +109,4 @@ func clipRange(min, max int, vals ...*int) {
 	}
 }
 
-func interpolateColor(v1,
+func interpolateColor(v1, v2, v3, v4 float64
