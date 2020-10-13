@@ -113,4 +113,5 @@ func interpolateColor(v1, v2, v3, v4 float64, a1, a2, a3, a4 float64) uint8 {
 	return uint8(v1*a1 + v2*a2 + v3*a3 + v4*a4)
 }
 
-typ
+type rgbaCache struct {
+	img
