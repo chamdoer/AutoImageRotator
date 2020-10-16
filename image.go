@@ -115,4 +115,5 @@ func interpolateColor(v1, v2, v3, v4 float64, a1, a2, a3, a4 float64) uint8 {
 
 type rgbaCache struct {
 	img        image.Image
-	cache      [][3]float
+	cache      [][3]float64
+	cacheValid []boo
