@@ -120,4 +120,5 @@ type rgbaCache struct {
 	bounds     image.Rectangle
 }
 
-func newRGBACache(img im
+func newRGBACache(img image.Image) *rgbaCache {
+	
