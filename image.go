@@ -118,3 +118,6 @@ type rgbaCache struct {
 	cache      [][3]float64
 	cacheValid []bool
 	bounds     image.Rectangle
+}
+
+func newRGBACache(img im
