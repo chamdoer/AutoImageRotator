@@ -121,4 +121,4 @@ type rgbaCache struct {
 }
 
 func newRGBACache(img image.Image) *rgbaCache {
-	
+	pixels := img.B
