@@ -123,4 +123,5 @@ type rgbaCache struct {
 func newRGBACache(img image.Image) *rgbaCache {
 	pixels := img.Bounds().Dx() * img.Bounds().Dy()
 	return &rgbaCache{
-		img:        im
+		img:        img,
+		cache:      
