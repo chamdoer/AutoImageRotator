@@ -127,4 +127,7 @@ func newRGBACache(img image.Image) *rgbaCache {
 		cache:      make([][3]float64, pixels),
 		cacheValid: make([]bool, pixels),
 		bounds:     img.Bounds(),
-	
+	}
+}
+
+func (r *rgbaCache) W
