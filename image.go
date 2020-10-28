@@ -130,4 +130,5 @@ func newRGBACache(img image.Image) *rgbaCache {
 	}
 }
 
-func (r *rgbaCache) W
+func (r *rgbaCache) Width() int {
+	return r
