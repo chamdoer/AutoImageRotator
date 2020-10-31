@@ -134,4 +134,5 @@ func (r *rgbaCache) Width() int {
 	return r.bounds.Dx()
 }
 
-func (r *rgbaCache) Height() i
+func (r *rgbaCache) Height() int {
+	return r.bounds.Dy()
