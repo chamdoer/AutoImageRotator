@@ -131,4 +131,7 @@ func newRGBACache(img image.Image) *rgbaCache {
 }
 
 func (r *rgbaCache) Width() int {
-	return r
+	return r.bounds.Dx()
+}
+
+func (
