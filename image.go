@@ -138,4 +138,4 @@ func (r *rgbaCache) Height() int {
 	return r.bounds.Dy()
 }
 
-func (r *rgbaCache) At
+func (r *rgbaCache) At(x, y int) (float64, float64,
