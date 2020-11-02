@@ -139,4 +139,5 @@ func (r *rgbaCache) Height() int {
 }
 
 func (r *rgbaCache) At(x, y int) (float64, float64, float64) {
-	idx := x + y
+	idx := x + y*r.bounds.Dx()
+	if r.cacheV
