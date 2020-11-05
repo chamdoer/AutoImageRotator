@@ -142,4 +142,6 @@ func (r *rgbaCache) At(x, y int) (float64, float64, float64) {
 	idx := x + y*r.bounds.Dx()
 	if r.cacheValid[idx] {
 		c := r.cache[idx]
-		return c[0]
+		return c[0], c[1], c[2]
+	}
+	r.cacheV
