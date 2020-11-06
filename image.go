@@ -144,4 +144,5 @@ func (r *rgbaCache) At(x, y int) (float64, float64, float64) {
 		c := r.cache[idx]
 		return c[0], c[1], c[2]
 	}
-	r.cacheV
+	r.cacheValid[idx] = true
+	rIn
