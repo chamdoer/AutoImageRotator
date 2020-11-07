@@ -145,4 +145,5 @@ func (r *rgbaCache) At(x, y int) (float64, float64, float64) {
 		return c[0], c[1], c[2]
 	}
 	r.cacheValid[idx] = true
-	rInt, gInt, bInt, _ := r.img.At(x+r.bounds.Min.X, y+r.bounds.Min.Y).RGBA
+	rInt, gInt, bInt, _ := r.img.At(x+r.bounds.Min.X, y+r.bounds.Min.Y).RGBA()
+	r.cache[idx] = [3]
