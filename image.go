@@ -148,4 +148,5 @@ func (r *rgbaCache) At(x, y int) (float64, float64, float64) {
 	rInt, gInt, bInt, _ := r.img.At(x+r.bounds.Min.X, y+r.bounds.Min.Y).RGBA()
 	r.cache[idx] = [3]float64{
 		float64(rInt) / 0x100,
-		float64(gInt) / 0
+		float64(gInt) / 0x100,
+		float64(bInt) / 0x100,
