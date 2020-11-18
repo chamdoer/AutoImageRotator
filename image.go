@@ -150,3 +150,6 @@ func (r *rgbaCache) At(x, y int) (float64, float64, float64) {
 		float64(rInt) / 0x100,
 		float64(gInt) / 0x100,
 		float64(bInt) / 0x100,
+	}
+	c := r.cache[idx]
+	ret
