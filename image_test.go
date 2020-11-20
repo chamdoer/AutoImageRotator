@@ -3,4 +3,7 @@ package autorot
 import (
 	"image"
 	"math"
-	"testi
+	"testing"
+)
+
+func BenchmarkRotate(b
