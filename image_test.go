@@ -6,4 +6,5 @@ import (
 	"testing"
 )
 
-func BenchmarkRotate(b
+func BenchmarkRotate(b *testing.B) {
+	img := image.N
