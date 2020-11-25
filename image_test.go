@@ -7,4 +7,4 @@ import (
 )
 
 func BenchmarkRotate(b *testing.B) {
-	img := image.NewYCbCr(image.Rect(0, 0, 900, 7
+	img := image.NewYCbCr(image.Rect(0, 0, 900, 713), image.YCbCrSu
