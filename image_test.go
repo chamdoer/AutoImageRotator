@@ -9,4 +9,5 @@ import (
 func BenchmarkRotate(b *testing.B) {
 	img := image.NewYCbCr(image.Rect(0, 0, 900, 713), image.YCbCrSubsampleRatio444)
 	b.ResetTimer()
-	for i :
+	for i := 0; i < b.N; i++ {
+		Rot
