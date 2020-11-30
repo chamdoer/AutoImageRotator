@@ -1,3 +1,5 @@
 package autorot
 
-im
+import (
+	"image"
+	"
