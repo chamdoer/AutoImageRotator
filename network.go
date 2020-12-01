@@ -4,4 +4,5 @@ import (
 	"image"
 	"math"
 
-	"github.com/unixpic
+	"github.com/unixpickle/anydiff"
+	"github.com
