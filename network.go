@@ -6,4 +6,5 @@ import (
 
 	"github.com/unixpickle/anydiff"
 	"github.com/unixpickle/anynet"
-	"github.
+	"github.com/unixpickle/anyvec"
+	"
