@@ -10,4 +10,7 @@ import (
 	"github.com/unixpickle/anyvec/anyvec32"
 	"github.com/unixpickle/serializer"
 
-	_ "github.com/unixpickle/anynet/an
+	_ "github.com/unixpickle/anynet/anyconv"
+)
+
+// OutputTyp
