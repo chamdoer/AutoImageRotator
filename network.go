@@ -10,4 +10,4 @@ import (
 	"github.com/unixpickle/anyvec/anyvec32"
 	"github.com/unixpickle/serializer"
 
-	_ "githu
+	_ "github.com/unixpickle/anynet/an
