@@ -13,4 +13,5 @@ import (
 	_ "github.com/unixpickle/anynet/anyconv"
 )
 
-// OutputType specifies the output format and l
+// OutputType specifies the output format and loss
+// function for a netw
