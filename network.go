@@ -14,4 +14,5 @@ import (
 )
 
 // OutputType specifies the output format and loss
-// function for a netw
+// function for a network.
+type OutputType in
