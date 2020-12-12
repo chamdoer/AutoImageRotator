@@ -19,4 +19,5 @@ type OutputType int
 
 const (
 	RawAngle OutputType = iota
-	Righ
+	RightAngles
+	ConfidenceAngle
