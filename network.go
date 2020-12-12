@@ -18,4 +18,5 @@ import (
 type OutputType int
 
 const (
-	RawAn
+	RawAngle OutputType = iota
+	Righ
