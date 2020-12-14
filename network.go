@@ -21,3 +21,7 @@ const (
 	RawAngle OutputType = iota
 	RightAngles
 	ConfidenceAngle
+)
+
+func init() {
+	var n Net
