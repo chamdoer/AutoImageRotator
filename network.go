@@ -25,3 +25,4 @@ const (
 
 func init() {
 	var n Net
+	serializer.Regist
