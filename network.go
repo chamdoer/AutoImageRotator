@@ -25,4 +25,7 @@ const (
 
 func init() {
 	var n Net
-	serializer.RegisterTypedDeserializer(n.SerializerType(), Deseria
+	serializer.RegisterTypedDeserializer(n.SerializerType(), DeserializeNet)
+}
+
+// A Net is
