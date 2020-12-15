@@ -25,4 +25,4 @@ const (
 
 func init() {
 	var n Net
-	serializer.Regist
+	serializer.RegisterTypedDeserializer(n
