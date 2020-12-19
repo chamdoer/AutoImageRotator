@@ -28,4 +28,5 @@ func init() {
 	serializer.RegisterTypedDeserializer(n.SerializerType(), DeserializeNet)
 }
 
-// A Net is a neural net that predicts angles from ima
+// A Net is a neural net that predicts angles from images.
+type Net struct
