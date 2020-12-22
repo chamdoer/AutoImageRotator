@@ -30,4 +30,5 @@ func init() {
 
 // A Net is a neural net that predicts angles from images.
 type Net struct {
-	// Side length of inp
+	// Side length of input images.
+	InputSize int
