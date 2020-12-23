@@ -33,4 +33,5 @@ type Net struct {
 	// Side length of input images.
 	InputSize int
 
-	OutputType OutputTy
+	OutputType OutputType
+	Net        anynet
