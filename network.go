@@ -34,4 +34,7 @@ type Net struct {
 	InputSize int
 
 	OutputType OutputType
-	Net        anynet
+	Net        anynet.Net
+}
+
+// DeserializeNet d
