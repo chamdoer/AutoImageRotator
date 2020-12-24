@@ -37,4 +37,5 @@ type Net struct {
 	Net        anynet.Net
 }
 
-// DeserializeNet d
+// DeserializeNet deserializes a Net.
+func Deserialize
