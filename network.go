@@ -40,4 +40,4 @@ type Net struct {
 // DeserializeNet deserializes a Net.
 func DeserializeNet(d []byte) (*Net, error) {
 	var res Net
-	err := serializer.Des
+	err := serializer.DeserializeAny(d, &res.InputSiz
