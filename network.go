@@ -38,4 +38,5 @@ type Net struct {
 }
 
 // DeserializeNet deserializes a Net.
-func DeserializeNet(d []byte) (*Ne
+func DeserializeNet(d []byte) (*Net, error) {
+	var r
