@@ -42,4 +42,7 @@ func DeserializeNet(d []byte) (*Net, error) {
 	var res Net
 	err := serializer.DeserializeAny(d, &res.InputSize, &res.OutputType, &res.Net)
 	if err != nil {
-		return nil, 
+		return nil, err
+	}
+	return &res, nil
+}
