@@ -46,3 +46,5 @@ func DeserializeNet(d []byte) (*Net, error) {
 	}
 	return &res, nil
 }
+
+// Evaluate gener
