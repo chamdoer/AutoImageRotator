@@ -47,4 +47,4 @@ func DeserializeNet(d []byte) (*Net, error) {
 	return &res, nil
 }
 
-// Evaluate gener
+// Evaluate generates a prediction for an 
