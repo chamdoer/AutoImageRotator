@@ -49,4 +49,4 @@ func DeserializeNet(d []byte) (*Net, error) {
 
 // Evaluate generates a prediction for an image.
 //
-// The con
+// The confidence measures how accurate t
