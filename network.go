@@ -50,4 +50,5 @@ func DeserializeNet(d []byte) (*Net, error) {
 // Evaluate generates a prediction for an image.
 //
 // The confidence measures how accurate the angle is
-// lik
+// likely to be.
+// It shou
