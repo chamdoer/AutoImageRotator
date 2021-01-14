@@ -51,4 +51,4 @@ func DeserializeNet(d []byte) (*Net, error) {
 //
 // The confidence measures how accurate the angle is
 // likely to be.
-// It shou
+// It should range between 0 a
