@@ -54,4 +54,4 @@ func DeserializeNet(d []byte) (*Net, error) {
 // It should range between 0 and 1.
 // Some output types do not yield a confidence measure.
 func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
-	if 
+	if img.Bounds().Dx() != i
