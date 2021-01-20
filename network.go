@@ -53,4 +53,4 @@ func DeserializeNet(d []byte) (*Net, error) {
 // likely to be.
 // It should range between 0 and 1.
 // Some output types do not yield a confidence measure.
-func (n *Net) Evaluate(img 
+func (n *Net) Evaluate(img image.Image) (angle, conf
