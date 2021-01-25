@@ -56,4 +56,4 @@ func DeserializeNet(d []byte) (*Net, error) {
 func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 	if img.Bounds().Dx() != img.Bounds().Dy() ||
 		img.Bounds().Dx() != n.InputSize {
-	
+		// Hack to crop
