@@ -57,4 +57,6 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 	if img.Bounds().Dx() != img.Bounds().Dy() ||
 		img.Bounds().Dx() != n.InputSize {
 		// Hack to crop the center square.
-		img = Rotate(img, 0, n.
+		img = Rotate(img, 0, n.InputSize)
+	}
+	inT
