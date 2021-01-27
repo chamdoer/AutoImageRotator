@@ -59,4 +59,4 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 		// Hack to crop the center square.
 		img = Rotate(img, 0, n.InputSize)
 	}
-	inT
+	inTensor := netInputTensor(img
