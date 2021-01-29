@@ -60,4 +60,4 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 		img = Rotate(img, 0, n.InputSize)
 	}
 	inTensor := netInputTensor(img)
-	inConst := anydiff.N
+	inConst := anydiff.NewConst(anyvec32.MakeVe
