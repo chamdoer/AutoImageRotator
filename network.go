@@ -62,4 +62,4 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 	inTensor := netInputTensor(img)
 	inConst := anydiff.NewConst(anyvec32.MakeVectorData(inTensor))
 	out := n.Net.Apply(inConst, 1).Output()
-	switc
+	switch n.OutputType
