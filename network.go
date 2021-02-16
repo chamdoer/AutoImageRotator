@@ -64,4 +64,5 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 	out := n.Net.Apply(inConst, 1).Output()
 	switch n.OutputType {
 	case RawAngle:
-		return float64(anyvec.Sum(out).
+		return float64(anyvec.Sum(out).(float32)), 0
+	case R
