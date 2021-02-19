@@ -68,4 +68,4 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 	case RightAngles:
 		angles, probs := rightAngleMaxes(out)
 		return float64(anyvec.Sum(angles).(float32)),
-			float64(anyvec.Sum
+			float64(anyvec.Sum(probs).(float32))
