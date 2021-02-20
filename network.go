@@ -70,4 +70,4 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 		return float64(anyvec.Sum(angles).(float32)),
 			float64(anyvec.Sum(probs).(float32))
 	case ConfidenceAngle:
-		a
+		angle := float64(anyvec.S
