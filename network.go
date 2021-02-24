@@ -72,4 +72,4 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 	case ConfidenceAngle:
 		angle := float64(anyvec.Sum(out.Slice(0, 1)).(float32))
 		confidence := float64(anyvec.Sum(out.Slice(1, 2)).(float32))
-		confidence
+		confidence = math.Max(0, math.Min
