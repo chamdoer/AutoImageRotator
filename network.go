@@ -75,4 +75,4 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 		confidence = math.Max(0, math.Min(1, (2-confidence)/2))
 		return angle, confidence
 	default:
-		panic("i
+		panic("invalid OutputType")
