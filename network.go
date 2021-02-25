@@ -76,3 +76,7 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 		return angle, confidence
 	default:
 		panic("invalid OutputType")
+	}
+}
+
+// Cost computes th
