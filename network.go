@@ -81,4 +81,4 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 
 // Cost computes the total cost, given the desired output
 // angles and the outputs from the network.
-func (n *Net) Cost
+func (n *Net) Cost(desired, actual a
