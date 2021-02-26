@@ -80,4 +80,4 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 }
 
 // Cost computes the total cost, given the desired output
-// angles and t
+// angles and the outputs from the net
