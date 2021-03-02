@@ -86,4 +86,5 @@ func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 		panic("bad batch size")
 	}
 	switch n.OutputType {
-	case RawAngle
+	case RawAngle:
+		return anydiff.Complem
