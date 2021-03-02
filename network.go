@@ -83,4 +83,6 @@ func (n *Net) Evaluate(img image.Image) (angle, confidence float64) {
 // angles and the outputs from the network.
 func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 	if num != desired.Output().Len() {
-		panic("bad batch size"
+		panic("bad batch size")
+	}
+	switch n.OutputTy
