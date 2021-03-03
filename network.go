@@ -89,4 +89,4 @@ func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 	case RawAngle:
 		return anydiff.Complement(anydiff.Cos(anydiff.Sub(actual, desired)))
 	case RightAngles:
-		oneHots := any
+		oneHots := anydiff.NewConst(rightAngl
