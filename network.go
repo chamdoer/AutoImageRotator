@@ -88,4 +88,5 @@ func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 	switch n.OutputType {
 	case RawAngle:
 		return anydiff.Complement(anydiff.Cos(anydiff.Sub(actual, desired)))
-	case Right
+	case RightAngles:
+		oneHots := any
