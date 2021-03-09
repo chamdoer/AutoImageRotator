@@ -91,4 +91,5 @@ func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 	case RightAngles:
 		oneHots := anydiff.NewConst(rightAngleOneHots(desired.Output()))
 		return anynet.DotCost{}.Cost(oneHots, actual, num)
-	case Confi
+	case ConfidenceAngle:
+		return an
