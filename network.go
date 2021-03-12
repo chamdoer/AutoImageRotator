@@ -94,4 +94,5 @@ func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 	case ConfidenceAngle:
 		return anydiff.Pool(actual, func(actual anydiff.Res) anydiff.Res {
 			angleMapper := confidenceAngleMapper(0, num)
-			confidenceMapper := confidenceA
+			confidenceMapper := confidenceAngleMapper(1, num)
+			angles :=
