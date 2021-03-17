@@ -96,4 +96,4 @@ func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 			angleMapper := confidenceAngleMapper(0, num)
 			confidenceMapper := confidenceAngleMapper(1, num)
 			angles := anydiff.Map(angleMapper, actual)
-			costs :
+			costs := anydiff.Complement(any
