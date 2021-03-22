@@ -102,4 +102,8 @@ func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 			return anydiff.Add(costs, confErr)
 		})
 	default:
-		panic("invalid OutputT
+		panic("invalid OutputType")
+	}
+}
+
+// 
