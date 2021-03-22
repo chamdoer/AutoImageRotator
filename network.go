@@ -99,4 +99,4 @@ func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 			costs := anydiff.Complement(anydiff.Cos(anydiff.Sub(angles, desired)))
 			confidences := anydiff.Map(confidenceMapper, actual)
 			confErr := anynet.MSE{}.Cost(costs, confidences, num)
-			return 
+			return anydiff.Add(costs, confEr
