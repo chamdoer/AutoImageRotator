@@ -106,4 +106,4 @@ func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 	}
 }
 
-// SerializerType returns th
+// SerializerType returns the unique ID used to
