@@ -109,4 +109,4 @@ func (n *Net) Cost(desired, actual anydiff.Res, num int) anydiff.Res {
 // SerializerType returns the unique ID used to serialize
 // a Net with the serializer package.
 func (n *Net) SerializerType() string {
-	return 
+	return "github.com/unixpickle/autor
