@@ -112,4 +112,5 @@ func (n *Net) SerializerType() string {
 	return "github.com/unixpickle/autorot.Net"
 }
 
-// Serialize seri
+// Serialize serializes the Net.
+func (n
