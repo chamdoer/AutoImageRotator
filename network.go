@@ -114,4 +114,5 @@ func (n *Net) SerializerType() string {
 
 // Serialize serializes the Net.
 func (n *Net) Serialize() ([]byte, error) {
-	return serializer.SerializeA
+	return serializer.SerializeAny(
+		serializer.Int(n.Inpu
