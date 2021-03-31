@@ -113,4 +113,5 @@ func (n *Net) SerializerType() string {
 }
 
 // Serialize serializes the Net.
-func (n *Net) Serialize() ([]byte, err
+func (n *Net) Serialize() ([]byte, error) {
+	return 
