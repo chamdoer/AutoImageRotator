@@ -116,4 +116,9 @@ func (n *Net) SerializerType() string {
 func (n *Net) Serialize() ([]byte, error) {
 	return serializer.SerializeAny(
 		serializer.Int(n.InputSize),
-		serializer.Int(n.Ou
+		serializer.Int(n.OutputType),
+		n.Net,
+	)
+}
+
+func r
