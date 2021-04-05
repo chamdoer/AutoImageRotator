@@ -121,4 +121,4 @@ func (n *Net) Serialize() ([]byte, error) {
 	)
 }
 
-func r
+func rightAngleOneHots(
