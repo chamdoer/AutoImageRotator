@@ -121,4 +121,5 @@ func (n *Net) Serialize() ([]byte, error) {
 	)
 }
 
-func rightAngleOneHots(angles anyvec.Vector) anyvec.
+func rightAngleOneHots(angles anyvec.Vector) anyvec.Vector {
+	// For each angle, w
