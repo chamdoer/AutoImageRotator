@@ -122,4 +122,5 @@ func (n *Net) Serialize() ([]byte, error) {
 }
 
 func rightAngleOneHots(angles anyvec.Vector) anyvec.Vector {
-	// For each angle, we produce a one-hot vecto
+	// For each angle, we produce a one-hot vector indicating
+	
