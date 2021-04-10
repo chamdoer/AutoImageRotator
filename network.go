@@ -126,4 +126,4 @@ func rightAngleOneHots(angles anyvec.Vector) anyvec.Vector {
 	// which multiple of 90 degrees it is closest to.
 	c := angles.Creator()
 	stops := c.MakeNumericList([]float64{0, -math.Pi / 2, -math.Pi, -3 * math.Pi / 2})
-	repeatedAngle
+	repeatedAngles := c.MakeVector(angles.Len()
