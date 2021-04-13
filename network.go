@@ -127,4 +127,5 @@ func rightAngleOneHots(angles anyvec.Vector) anyvec.Vector {
 	c := angles.Creator()
 	stops := c.MakeNumericList([]float64{0, -math.Pi / 2, -math.Pi, -3 * math.Pi / 2})
 	repeatedAngles := c.MakeVector(angles.Len() * 4)
-	repeatedAngles.AddScalar(c.Ma
+	repeatedAngles.AddScalar(c.MakeNumeric(1))
+	ones
