@@ -130,4 +130,5 @@ func rightAngleOneHots(angles anyvec.Vector) anyvec.Vector {
 	repeatedAngles.AddScalar(c.MakeNumeric(1))
 	ones := repeatedAngles.Slice(0, angles.Len()).Copy()
 	anyvec.ScaleChunks(repeatedAngles, angles)
-	anyvec.AddRepeated(repeatedAngles, c.Make
+	anyvec.AddRepeated(repeatedAngles, c.MakeVectorData(stops))
+	anyv
