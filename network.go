@@ -133,4 +133,5 @@ func rightAngleOneHots(angles anyvec.Vector) anyvec.Vector {
 	anyvec.AddRepeated(repeatedAngles, c.MakeVectorData(stops))
 	anyvec.Cos(repeatedAngles)
 	maxMap := anyvec.MapMax(repeatedAngles, 4)
-	repeatedAngles.Scale(c.Mak
+	repeatedAngles.Scale(c.MakeNumeric(0))
+	maxMap.Ma
