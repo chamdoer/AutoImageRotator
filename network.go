@@ -137,3 +137,5 @@ func rightAngleOneHots(angles anyvec.Vector) anyvec.Vector {
 	maxMap.MapTranspose(ones, repeatedAngles)
 	return repeatedAngles
 }
+
+func rightAngleMax
