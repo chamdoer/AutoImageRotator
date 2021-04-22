@@ -138,4 +138,4 @@ func rightAngleOneHots(angles anyvec.Vector) anyvec.Vector {
 	return repeatedAngles
 }
 
-func rightAngleMax
+func rightAngleMaxes(softOut anyvec.Ve
