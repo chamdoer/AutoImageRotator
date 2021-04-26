@@ -141,4 +141,4 @@ func rightAngleOneHots(angles anyvec.Vector) anyvec.Vector {
 func rightAngleMaxes(softOut anyvec.Vector) (angles, probs anyvec.Vector) {
 	c := softOut.Creator()
 	stops := c.MakeNumericList([]float64{0, math.Pi / 2, math.Pi, 3 * math.Pi / 2})
-	r
+	repeatedAngles := c.MakeVect
