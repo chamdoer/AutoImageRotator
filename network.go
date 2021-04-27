@@ -143,4 +143,6 @@ func rightAngleMaxes(softOut anyvec.Vector) (angles, probs anyvec.Vector) {
 	stops := c.MakeNumericList([]float64{0, math.Pi / 2, math.Pi, 3 * math.Pi / 2})
 	repeatedAngles := c.MakeVector(softOut.Len())
 	anyvec.AddRepeated(repeatedAngles, c.MakeVectorData(stops))
-	maxes := anyvec.MapMax(
+	maxes := anyvec.MapMax(softOut, 4)
+
+	angles = c.M
