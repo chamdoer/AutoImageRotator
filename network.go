@@ -150,4 +150,9 @@ func rightAngleMaxes(softOut anyvec.Vector) (angles, probs anyvec.Vector) {
 
 	probs = c.MakeVector(softOut.Len() / 4)
 	maxes.Map(softOut, probs)
-	anyvec.Exp(pro
+	anyvec.Exp(probs)
+
+	return
+}
+
+func con
