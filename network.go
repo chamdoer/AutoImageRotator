@@ -156,4 +156,5 @@ func rightAngleMaxes(softOut anyvec.Vector) (angles, probs anyvec.Vector) {
 }
 
 func confidenceAngleMapper(modIdx int, num int) anyvec.Mapper {
-	mapping := ma
+	mapping := make([]int, num)
+	for i := 
