@@ -160,4 +160,5 @@ func confidenceAngleMapper(modIdx int, num int) anyvec.Mapper {
 	for i := range mapping {
 		mapping[i] = i*2 + modIdx
 	}
-	return anyvec32.MakeMapper(num*2, mappin
+	return anyvec32.MakeMapper(num*2, mapping)
+}
