@@ -1,3 +1,6 @@
 // +build cuda
 
-package m
+package main
+
+import (
+	"github.co
