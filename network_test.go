@@ -73,3 +73,6 @@ func TestRightAngleMaxes(t *testing.T) {
 		a := actual[i]
 		if math.Abs(float64(x-a)) > 1e-3 {
 			t.Errorf("output %d: expected %f but got %f", i, x, a)
+		}
+	}
+}
