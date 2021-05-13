@@ -7,4 +7,5 @@ import (
 	"github.com/unixpickle/cudavec"
 )
 
-fu
+func init() {
+	handle, er
