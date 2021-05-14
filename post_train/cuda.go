@@ -8,4 +8,4 @@ import (
 )
 
 func init() {
-	handle, er
+	handle, err := cudavec.NewHandleDe
