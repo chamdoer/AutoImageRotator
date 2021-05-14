@@ -8,4 +8,6 @@ import (
 )
 
 func init() {
-	handle, err := cudavec.NewHandleDe
+	handle, err := cudavec.NewHandleDefault()
+	if err != nil {
+		pan
