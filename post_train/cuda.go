@@ -10,4 +10,6 @@ import (
 func init() {
 	handle, err := cudavec.NewHandleDefault()
 	if err != nil {
-		pan
+		panic(err)
+	}
+	anyvec32.
