@@ -12,4 +12,4 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	anyvec32.
+	anyvec32.Use(&cudavec.Creator32{H
