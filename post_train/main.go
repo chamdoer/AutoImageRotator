@@ -1,1 +1,1 @@
-// Command post_train pro
+// Command post_train produces an *imagen
