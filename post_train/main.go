@@ -14,4 +14,5 @@ import (
 
 	"github.com/unixpickle/anynet/anyconv"
 	"github.com/unixpickle/anynet/anyff"
-	"github.com/unixpickle/anynet/anysgd
+	"github.com/unixpickle/anynet/anysgd"
+	"github.com/unixpi
