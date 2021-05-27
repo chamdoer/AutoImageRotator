@@ -17,4 +17,4 @@ import (
 	"github.com/unixpickle/anynet/anysgd"
 	"github.com/unixpickle/autorot"
 	"github.com/unixpickle/essentials"
-	"g
+	"github.com/unixpickle/serializ
