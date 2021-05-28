@@ -21,4 +21,6 @@ import (
 )
 
 func main() {
-	var imgDir stri
+	var imgDir string
+	var inNet string
+	
