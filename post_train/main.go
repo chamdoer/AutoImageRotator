@@ -23,4 +23,6 @@ import (
 func main() {
 	var imgDir string
 	var inNet string
-	
+	var outNet string
+
+	var batchSize 
