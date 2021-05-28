@@ -25,4 +25,7 @@ func main() {
 	var inNet string
 	var outNet string
 
-	var batchSize 
+	var batchSize int
+	var sampleCount int
+
+	
