@@ -17,4 +17,8 @@ import (
 	"github.com/unixpickle/anynet/anysgd"
 	"github.com/unixpickle/autorot"
 	"github.com/unixpickle/essentials"
-	"github.com/unixpickle/serializ
+	"github.com/unixpickle/serializer"
+)
+
+func main() {
+	var imgDir stri
