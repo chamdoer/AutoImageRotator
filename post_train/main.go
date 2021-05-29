@@ -28,4 +28,4 @@ func main() {
 	var batchSize int
 	var sampleCount int
 
-	
+	flag.StringVar(&img
