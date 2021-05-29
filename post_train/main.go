@@ -28,4 +28,5 @@ func main() {
 	var batchSize int
 	var sampleCount int
 
-	flag.StringVar(&imgDir, "samples", "", "sam
+	flag.StringVar(&imgDir, "samples", "", "sample directory")
+	flag.Str
