@@ -29,4 +29,4 @@ func main() {
 	var sampleCount int
 
 	flag.StringVar(&imgDir, "samples", "", "sample directory")
-	flag.Str
+	flag.StringVar(&inNet, "in", "", "inp
