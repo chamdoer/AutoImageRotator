@@ -30,4 +30,4 @@ func main() {
 
 	flag.StringVar(&imgDir, "samples", "", "sample directory")
 	flag.StringVar(&inNet, "in", "", "input network")
-	flag.StringVar(&outNet
+	flag.StringVar(&outNet, "out", "", "output net
