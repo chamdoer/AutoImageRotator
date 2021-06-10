@@ -32,4 +32,4 @@ func main() {
 	flag.StringVar(&inNet, "in", "", "input network")
 	flag.StringVar(&outNet, "out", "", "output network")
 	flag.IntVar(&batchSize, "batch", 8, "evaluation batch size")
-	flag.IntVar(&sampleCount, "total", 5
+	flag.IntVar(&sampleCount, "total", 512, "total samples for BatchNor
