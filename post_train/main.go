@@ -34,4 +34,6 @@ func main() {
 	flag.IntVar(&batchSize, "batch", 8, "evaluation batch size")
 	flag.IntVar(&sampleCount, "total", 512, "total samples for BatchNorm replacement")
 
-	flag.P
+	flag.Parse()
+
+	if imgDir == "" ||
