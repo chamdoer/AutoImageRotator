@@ -36,4 +36,4 @@ func main() {
 
 	flag.Parse()
 
-	if imgDir == "" ||
+	if imgDir == "" || inNet == "" || outNet =
