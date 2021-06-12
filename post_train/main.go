@@ -37,4 +37,4 @@ func main() {
 	flag.Parse()
 
 	if imgDir == "" || inNet == "" || outNet == "" {
-		fmt.Fprintln(os.Stderr, "Required flag
+		fmt.Fprintln(os.Stderr, "Required flags: -in, -out, and
