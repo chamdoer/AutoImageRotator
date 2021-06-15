@@ -38,4 +38,6 @@ func main() {
 
 	if imgDir == "" || inNet == "" || outNet == "" {
 		fmt.Fprintln(os.Stderr, "Required flags: -in, -out, and -samples")
-		fmt.Fprintln(os.
+		fmt.Fprintln(os.Stderr)
+		flag.PrintDefaults()
+		os.E
