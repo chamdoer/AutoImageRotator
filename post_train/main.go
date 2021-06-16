@@ -40,4 +40,7 @@ func main() {
 		fmt.Fprintln(os.Stderr, "Required flags: -in, -out, and -samples")
 		fmt.Fprintln(os.Stderr)
 		flag.PrintDefaults()
-		os.E
+		os.Exit(1)
+	}
+
+	log.Println("
