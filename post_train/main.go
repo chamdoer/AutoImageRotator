@@ -45,4 +45,4 @@ func main() {
 
 	log.Println("Loading network...")
 	var net *autorot.Net
-	i
+	if err := serializer.LoadAny(
