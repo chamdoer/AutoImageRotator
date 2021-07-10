@@ -49,4 +49,5 @@ func main() {
 		essentials.Die("Failed to read network:", err)
 	}
 
-	log.Println("Loadi
+	log.Println("Loading samples...")
+	samples
