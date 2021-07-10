@@ -46,4 +46,7 @@ func main() {
 	log.Println("Loading network...")
 	var net *autorot.Net
 	if err := serializer.LoadAny(inNet, &net); err != nil {
-		essentials.Die("Failed to read network:",
+		essentials.Die("Failed to read network:", err)
+	}
+
+	log.Println("Loadi
