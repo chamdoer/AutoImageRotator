@@ -50,4 +50,4 @@ func main() {
 	}
 
 	log.Println("Loading samples...")
-	samples
+	samples, err := autorot.
