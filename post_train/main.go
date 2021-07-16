@@ -50,4 +50,4 @@ func main() {
 	}
 
 	log.Println("Loading samples...")
-	samples, err := autorot.
+	samples, err := autorot.ReadSampleList(net.Input
