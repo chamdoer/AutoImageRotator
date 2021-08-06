@@ -50,4 +50,5 @@ func main() {
 	}
 
 	log.Println("Loading samples...")
-	samples, err := autorot.ReadSampleList(net.Input
+	samples, err := autorot.ReadSampleList(net.InputSize, imgDir)
+	if err !
