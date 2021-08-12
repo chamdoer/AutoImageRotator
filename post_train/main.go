@@ -53,3 +53,5 @@ func main() {
 	samples, err := autorot.ReadSampleList(net.InputSize, imgDir)
 	if err != nil {
 		essentials.Die("Failed to read sample listing:", err)
+	}
+	rand.Seed(time.
