@@ -54,4 +54,5 @@ func main() {
 	if err != nil {
 		essentials.Die("Failed to read sample listing:", err)
 	}
-	rand.Seed(time.
+	rand.Seed(time.Now().UnixNano())
+	anysg
