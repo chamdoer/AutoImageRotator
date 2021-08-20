@@ -56,4 +56,5 @@ func main() {
 	}
 	rand.Seed(time.Now().UnixNano())
 	anysgd.Shuffle(samples)
-	if samp
+	if sampleCount < samples.Len() {
+		sa
