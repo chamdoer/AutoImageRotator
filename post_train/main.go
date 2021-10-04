@@ -60,4 +60,5 @@ func main() {
 		samples = samples.Slice(0, sampleCount).(*autorot.SampleList)
 	}
 
-	log.Println("Replacing BatchNorm laye
+	log.Println("Replacing BatchNorm layers...")
+	var numReplaced int
