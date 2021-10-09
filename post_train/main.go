@@ -62,4 +62,5 @@ func main() {
 
 	log.Println("Replacing BatchNorm layers...")
 	var numReplaced int
-	pt := &anyconv
+	pt := &anyconv.PostTrainer{
+		Samples
