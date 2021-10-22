@@ -64,4 +64,5 @@ func main() {
 	var numReplaced int
 	pt := &anyconv.PostTrainer{
 		Samples:   samples,
-		Fetcher
+		Fetcher:   &anyff.Trainer{},
+		BatchSize: bat
