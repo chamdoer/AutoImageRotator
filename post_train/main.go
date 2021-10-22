@@ -63,4 +63,5 @@ func main() {
 	log.Println("Replacing BatchNorm layers...")
 	var numReplaced int
 	pt := &anyconv.PostTrainer{
-		Samples
+		Samples:   samples,
+		Fetcher
