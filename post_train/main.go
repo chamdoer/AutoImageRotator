@@ -65,4 +65,5 @@ func main() {
 	pt := &anyconv.PostTrainer{
 		Samples:   samples,
 		Fetcher:   &anyff.Trainer{},
-		BatchSize: bat
+		BatchSize: batchSize,
+		Net:       n
