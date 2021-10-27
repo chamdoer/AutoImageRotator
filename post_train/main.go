@@ -66,4 +66,5 @@ func main() {
 		Samples:   samples,
 		Fetcher:   &anyff.Trainer{},
 		BatchSize: batchSize,
-		Net:       n
+		Net:       net.Net,
+		StatusFunc: f
