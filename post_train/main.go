@@ -67,4 +67,4 @@ func main() {
 		Fetcher:   &anyff.Trainer{},
 		BatchSize: batchSize,
 		Net:       net.Net,
-		StatusFunc: f
+		StatusFunc: func(bn *anyco
