@@ -68,4 +68,5 @@ func main() {
 		BatchSize: batchSize,
 		Net:       net.Net,
 		StatusFunc: func(bn *anyconv.BatchNorm) {
-			numRe
+			numReplaced++
+			log.Prin
