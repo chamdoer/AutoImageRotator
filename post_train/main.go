@@ -69,4 +69,4 @@ func main() {
 		Net:       net.Net,
 		StatusFunc: func(bn *anyconv.BatchNorm) {
 			numReplaced++
-			log.Prin
+			log.Println("Replaced", 
