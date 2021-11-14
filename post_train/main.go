@@ -72,4 +72,4 @@ func main() {
 			log.Println("Replaced", numReplaced, "BatchNorms.")
 		},
 	}
-	if err = pt.R
+	if err = pt.Run(); err != nil 
