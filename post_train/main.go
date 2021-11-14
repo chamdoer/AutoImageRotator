@@ -70,3 +70,6 @@ func main() {
 		StatusFunc: func(bn *anyconv.BatchNorm) {
 			numReplaced++
 			log.Println("Replaced", numReplaced, "BatchNorms.")
+		},
+	}
+	if err = pt.R
