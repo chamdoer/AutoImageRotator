@@ -73,4 +73,5 @@ func main() {
 		},
 	}
 	if err = pt.Run(); err != nil {
-		essentials.Die("Post-training err
+		essentials.Die("Post-training error:", err)
+	}
