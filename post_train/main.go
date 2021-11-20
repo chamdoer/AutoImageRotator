@@ -72,4 +72,5 @@ func main() {
 			log.Println("Replaced", numReplaced, "BatchNorms.")
 		},
 	}
-	if err = pt.Run(); err != nil 
+	if err = pt.Run(); err != nil {
+		essentials.Die("Post-training err
