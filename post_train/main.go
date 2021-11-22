@@ -75,3 +75,5 @@ func main() {
 	if err = pt.Run(); err != nil {
 		essentials.Die("Post-training error:", err)
 	}
+
+	log.Println("Saving networ
