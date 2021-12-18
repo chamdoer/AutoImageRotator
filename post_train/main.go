@@ -76,4 +76,5 @@ func main() {
 		essentials.Die("Post-training error:", err)
 	}
 
-	log.Println("Saving networ
+	log.Println("Saving network...")
+	if err = seria
