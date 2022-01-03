@@ -77,4 +77,5 @@ func main() {
 	}
 
 	log.Println("Saving network...")
-	if err = serializer.SaveAny(outNet, net); 
+	if err = serializer.SaveAny(outNet, net); err != nil {
+		es
