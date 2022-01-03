@@ -1,1 +1,2 @@
-// Command repurpose converts an Ima
+// Command repurpose converts an ImageNet classifier to an
+// 
