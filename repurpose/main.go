@@ -6,4 +6,5 @@ import (
 	"flag"
 
 	"github.com/unixpickle/anydiff"
-	"github.com/unixpic
+	"github.com/unixpickle/anynet"
+	"github.co
