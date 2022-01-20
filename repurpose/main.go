@@ -10,4 +10,4 @@ import (
 	"github.com/unixpickle/anyvec/anyvec32"
 	"github.com/unixpickle/autorot"
 	"github.com/unixpickle/essentials"
-	
+	"github.com/unixpickle/imagenet
