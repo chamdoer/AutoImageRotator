@@ -11,4 +11,7 @@ import (
 	"github.com/unixpickle/autorot"
 	"github.com/unixpickle/essentials"
 	"github.com/unixpickle/imagenet"
-	"github.com/unixp
+	"github.com/unixpickle/serializer"
+)
+
+func ma
