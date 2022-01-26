@@ -15,4 +15,5 @@ import (
 )
 
 func main() {
-	var inFile st
+	var inFile string
+	var outFile strin
