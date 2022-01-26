@@ -16,4 +16,5 @@ import (
 
 func main() {
 	var inFile string
-	var outFile strin
+	var outFile string
+	var removeLayers
