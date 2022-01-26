@@ -14,4 +14,5 @@ import (
 	"github.com/unixpickle/serializer"
 )
 
-func ma
+func main() {
+	var inFile st
