@@ -18,4 +18,5 @@ func main() {
 	var inFile string
 	var outFile string
 	var removeLayers int
-	var rightAngles b
+	var rightAngles bool
+	var confidence bo
