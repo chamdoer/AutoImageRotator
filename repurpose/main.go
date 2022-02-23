@@ -19,4 +19,6 @@ func main() {
 	var outFile string
 	var removeLayers int
 	var rightAngles bool
-	var confidence bo
+	var confidence bool
+
+	flag.StringVar(&i
