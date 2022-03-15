@@ -21,4 +21,4 @@ func main() {
 	var rightAngles bool
 	var confidence bool
 
-	flag.StringVar(&i
+	flag.StringVar(&inFile, "in", "", "imagene
