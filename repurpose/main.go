@@ -21,4 +21,5 @@ func main() {
 	var rightAngles bool
 	var confidence bool
 
-	flag.StringVar(&inFile, "in", "", "imagene
+	flag.StringVar(&inFile, "in", "", "imagenet classifier path")
+	flag.St
