@@ -22,4 +22,4 @@ func main() {
 	var confidence bool
 
 	flag.StringVar(&inFile, "in", "", "imagenet classifier path")
-	flag.St
+	flag.StringVar(&outFile, "out", 
