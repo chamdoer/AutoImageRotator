@@ -23,4 +23,4 @@ func main() {
 
 	flag.StringVar(&inFile, "in", "", "imagenet classifier path")
 	flag.StringVar(&outFile, "out", "", "output network path")
-	flag.IntVa
+	flag.IntVar(&removeLayers, "remove", 2, "number of laye
