@@ -29,4 +29,5 @@ func main() {
 
 	flag.Parse()
 
-	if inFile == "" || outFile == ""
+	if inFile == "" || outFile == "" {
+		essentials.
