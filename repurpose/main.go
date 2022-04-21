@@ -34,3 +34,4 @@ func main() {
 	}
 
 	var inNet *imagenet.Classifier
+	if err := serializer.Lo
