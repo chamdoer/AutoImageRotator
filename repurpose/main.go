@@ -33,4 +33,4 @@ func main() {
 		essentials.Die("Required flags: -in and -out. See -help for more.")
 	}
 
-	var inNet *im
+	var inNet *imagenet.Classifier
