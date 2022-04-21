@@ -30,4 +30,7 @@ func main() {
 	flag.Parse()
 
 	if inFile == "" || outFile == "" {
-		essentials.Die("Required flags: -in and -out. See -help for 
+		essentials.Die("Required flags: -in and -out. See -help for more.")
+	}
+
+	var inNet *im
