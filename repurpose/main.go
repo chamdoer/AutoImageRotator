@@ -29,4 +29,4 @@ func main() {
 
 	flag.Parse()
 
-	if i
+	if inFile == "" || outFile == ""
