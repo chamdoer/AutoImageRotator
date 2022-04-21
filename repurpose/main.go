@@ -25,4 +25,8 @@ func main() {
 	flag.StringVar(&outFile, "out", "", "output network path")
 	flag.IntVar(&removeLayers, "remove", 2, "number of layers to remove")
 	flag.BoolVar(&rightAngles, "rightangles", false, "use right angles")
-	flag.BoolVar(&confidence, "confidence", false, "use confidence and angle
+	flag.BoolVar(&confidence, "confidence", false, "use confidence and angle outputs")
+
+	flag.Parse()
+
+	if i
