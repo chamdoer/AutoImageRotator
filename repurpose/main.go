@@ -34,4 +34,5 @@ func main() {
 	}
 
 	var inNet *imagenet.Classifier
-	if err := serializer.LoadAny(inFile, &inNet); er
+	if err := serializer.LoadAny(inFile, &inNet); err != nil {
+		essentials.Die("Load 
