@@ -37,3 +37,4 @@ func main() {
 	if err := serializer.LoadAny(inFile, &inNet); err != nil {
 		essentials.Die("Load input failed:", err)
 	}
+	if inNet.In
