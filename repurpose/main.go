@@ -37,4 +37,5 @@ func main() {
 	if err := serializer.LoadAny(inFile, &inNet); err != nil {
 		essentials.Die("Load input failed:", err)
 	}
-	if inNet.InWidth != inNet.InHeight
+	if inNet.InWidth != inNet.InHeight {
+		essentials.Die("Input 
