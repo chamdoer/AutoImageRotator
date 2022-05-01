@@ -38,4 +38,4 @@ func main() {
 		essentials.Die("Load input failed:", err)
 	}
 	if inNet.InWidth != inNet.InHeight {
-		essentials.Die("Input 
+		essentials.Die("Input dimensions do not form
