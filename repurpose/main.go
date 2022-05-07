@@ -41,4 +41,4 @@ func main() {
 		essentials.Die("Input dimensions do not form a square.")
 	}
 
-	newNet := inNet.Net[:len(inNet.Ne
+	newNet := inNet.Net[:len(inNet.Net)-removeLayers]
