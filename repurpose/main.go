@@ -42,3 +42,4 @@ func main() {
 	}
 
 	newNet := inNet.Net[:len(inNet.Net)-removeLayers]
+	zeroIn := anydiff.
