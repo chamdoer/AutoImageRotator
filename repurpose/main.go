@@ -42,4 +42,4 @@ func main() {
 	}
 
 	newNet := inNet.Net[:len(inNet.Net)-removeLayers]
-	zeroIn := anydiff.NewConst(anyvec32.MakeVector(i
+	zeroIn := anydiff.NewConst(anyvec32.MakeVector(inNet.InWidth * inNet.I
