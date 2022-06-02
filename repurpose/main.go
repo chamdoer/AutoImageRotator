@@ -43,4 +43,6 @@ func main() {
 
 	newNet := inNet.Net[:len(inNet.Net)-removeLayers]
 	zeroIn := anydiff.NewConst(anyvec32.MakeVector(inNet.InWidth * inNet.InHeight * 3))
-	outCount := newNet.Apply(zeroIn, 1).Output().L
+	outCount := newNet.Apply(zeroIn, 1).Output().Len()
+	if rightAngles {
+		new
