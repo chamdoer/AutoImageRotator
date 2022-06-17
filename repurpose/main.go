@@ -45,4 +45,4 @@ func main() {
 	zeroIn := anydiff.NewConst(anyvec32.MakeVector(inNet.InWidth * inNet.InHeight * 3))
 	outCount := newNet.Apply(zeroIn, 1).Output().Len()
 	if rightAngles {
-		newNet = append(newNet, anynet.NewFC(anyvec32.Cur
+		newNet = append(newNet, anynet.NewFC(anyvec32.CurrentCreator(), outCoun
