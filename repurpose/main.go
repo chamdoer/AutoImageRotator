@@ -47,4 +47,5 @@ func main() {
 	if rightAngles {
 		newNet = append(newNet, anynet.NewFC(anyvec32.CurrentCreator(), outCount, 4),
 			anynet.LogSoftmax)
-	} else if 
+	} else if confidence {
+		newNet = 
