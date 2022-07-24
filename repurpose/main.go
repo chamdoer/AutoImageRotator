@@ -49,4 +49,5 @@ func main() {
 			anynet.LogSoftmax)
 	} else if confidence {
 		newNet = append(newNet, anynet.NewFC(anyvec32.CurrentCreator(), outCount, 2))
-	} el
+	} else {
+		newNet = append(
