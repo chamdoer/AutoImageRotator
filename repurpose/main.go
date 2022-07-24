@@ -50,4 +50,4 @@ func main() {
 	} else if confidence {
 		newNet = append(newNet, anynet.NewFC(anyvec32.CurrentCreator(), outCount, 2))
 	} else {
-		newNet = append(
+		newNet = append(newNet, anynet.NewFC(any
