@@ -52,4 +52,5 @@ func main() {
 	} else {
 		newNet = append(newNet, anynet.NewFC(anyvec32.CurrentCreator(), outCount, 1))
 	}
-	out := 
+	out := &autorot.Net{
+		InputSize:  
