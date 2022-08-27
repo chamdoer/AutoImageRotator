@@ -54,4 +54,5 @@ func main() {
 	}
 	out := &autorot.Net{
 		InputSize:  inNet.InWidth,
-		Out
+		OutputType: autorot.RawAngle,
+		
