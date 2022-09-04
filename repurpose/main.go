@@ -58,4 +58,4 @@ func main() {
 		Net:        newNet,
 	}
 	if rightAngles {
-		out.
+		out.OutputType = autorot.R
