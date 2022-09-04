@@ -57,4 +57,5 @@ func main() {
 		OutputType: autorot.RawAngle,
 		Net:        newNet,
 	}
-	i
+	if rightAngles {
+		out.
