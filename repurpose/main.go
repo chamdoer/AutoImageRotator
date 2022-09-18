@@ -60,4 +60,4 @@ func main() {
 	if rightAngles {
 		out.OutputType = autorot.RightAngles
 	} else if confidence {
-		out.OutputType = 
+		out.OutputType = autorot.ConfidenceAngl
