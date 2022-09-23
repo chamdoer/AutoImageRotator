@@ -60,4 +60,6 @@ func main() {
 	if rightAngles {
 		out.OutputType = autorot.RightAngles
 	} else if confidence {
-		out.OutputType = autorot.ConfidenceAngl
+		out.OutputType = autorot.ConfidenceAngle
+	}
+	if err := serializer.
