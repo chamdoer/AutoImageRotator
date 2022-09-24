@@ -62,4 +62,5 @@ func main() {
 	} else if confidence {
 		out.OutputType = autorot.ConfidenceAngle
 	}
-	if err := serializer.SaveAny(outFile, out); err !=
+	if err := serializer.SaveAny(outFile, out); err != nil {
+		essentials.Die("Save f
