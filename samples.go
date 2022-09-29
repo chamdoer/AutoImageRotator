@@ -67,3 +67,29 @@ func (s *SampleList) GetSample(idx int) (*anyff.Sample, error) {
 	defer f.Close()
 	img, _, err := image.Decode(f)
 	if err != nil {
+		return nil, err
+	}
+	theta := randomAngle()
+	rotated := Rotate(img, theta, s.ImageSize)
+	outVec := []float32{float32(theta)}
+	inVec := netInputTensor(rotated)
+	return &anyff.Sample{
+		Input:  anyvec32.MakeVectorData(inVec),
+		Output: anyvec32.MakeVectorData(outVec),
+	}, nil
+}
+
+// Slice returns a subset of the list.
+func (s *SampleList) Slice(i, j int) anysgd.SampleList {
+	return &SampleList{
+		Paths:     append([]string{}, s.Paths[i:j]...),
+		ImageSize: s.ImageSize,
+	}
+}
+
+func randomAngle() float64 {
+	return float64(rand.Intn(4)) * math.Pi / 2
+}
+
+func netInputTensor(img image.Image) []float32 {
+	size := img.Bounds().Dx()
