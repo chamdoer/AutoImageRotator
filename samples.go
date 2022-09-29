@@ -45,3 +45,25 @@ func ReadSampleList(imageSize int, dir string) (*SampleList, error) {
 	}
 	return res, nil
 }
+
+// Len returns the number of samples in the set.
+func (s *SampleList) Len() int {
+	return len(s.Paths)
+}
+
+// Swap swaps two sample indices.
+func (s *SampleList) Swap(i, j int) {
+	s.Paths[i], s.Paths[j] = s.Paths[j], s.Paths[i]
+}
+
+// GetSample generates a rotated and scaled image tensor
+// for the given sample index.
+func (s *SampleList) GetSample(idx int) (*anyff.Sample, error) {
+	path := s.Paths[idx]
+	f, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	defer f.Close()
+	img, _, err := image.Decode(f)
+	if err != nil {
