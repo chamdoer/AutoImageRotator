@@ -93,3 +93,19 @@ func randomAngle() float64 {
 
 func netInputTensor(img image.Image) []float32 {
 	size := img.Bounds().Dx()
+	res := make([]float32, size*size*3)
+
+	subIdx := 0
+	for y := 0; y < size; y++ {
+		for x := 0; x < size; x++ {
+			pixel := img.At(x+img.Bounds().Min.X, y+img.Bounds().Min.Y)
+			r, g, b, _ := pixel.RGBA()
+			res[subIdx] = float32(r) / 0xffff
+			res[subIdx+1] = float32(g) / 0xffff
+			res[subIdx+2] = float32(b) / 0xffff
+			subIdx += 3
+		}
+	}
+
+	return res
+}
