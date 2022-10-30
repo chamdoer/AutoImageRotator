@@ -2,4 +2,7 @@
 // rotation for images.
 package main
 
-import 
+import (
+	"flag"
+	"fmt"
+	"
