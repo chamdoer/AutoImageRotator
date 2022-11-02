@@ -5,4 +5,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"
+	"log"
+	"math/rand"
+	"os"
