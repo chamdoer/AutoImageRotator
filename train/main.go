@@ -12,4 +12,4 @@ import (
 
 	"github.com/unixpickle/anynet/anyff"
 	"github.com/unixpickle/anynet/anysgd"
-	"githu
+	"github.com/unixpickle/autoro
