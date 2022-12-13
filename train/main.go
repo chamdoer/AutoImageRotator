@@ -12,4 +12,5 @@ import (
 
 	"github.com/unixpickle/anynet/anyff"
 	"github.com/unixpickle/anynet/anysgd"
-	"github.com/unixpickle/autoro
+	"github.com/unixpickle/autorot"
+	"github.com/unixpickle/es
