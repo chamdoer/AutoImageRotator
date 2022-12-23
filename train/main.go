@@ -15,4 +15,4 @@ import (
 	"github.com/unixpickle/autorot"
 	"github.com/unixpickle/essentials"
 	"github.com/unixpickle/rip"
-	"gith
+	"github.com/unixpickle/s
