@@ -15,4 +15,7 @@ import (
 	"github.com/unixpickle/autorot"
 	"github.com/unixpickle/essentials"
 	"github.com/unixpickle/rip"
-	"github.com/unixpickle/s
+	"github.com/unixpickle/serializer"
+)
+
+fu
