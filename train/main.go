@@ -18,4 +18,5 @@ import (
 	"github.com/unixpickle/serializer"
 )
 
-fu
+func main() {
+	rand.Se
