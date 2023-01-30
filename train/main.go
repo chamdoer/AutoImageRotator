@@ -19,4 +19,5 @@ import (
 )
 
 func main() {
-	rand.Se
+	rand.Seed(time.Now().UnixNano())
+	va
