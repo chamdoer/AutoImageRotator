@@ -20,4 +20,6 @@ import (
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
-	var netFile strin
+	var netFile string
+	var dataDir string
+	var stepS
