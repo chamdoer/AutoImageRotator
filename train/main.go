@@ -23,4 +23,5 @@ func main() {
 	var netFile string
 	var dataDir string
 	var stepSize float64
-	var batchSize in
+	var batchSize int
+	flag.StringVa
