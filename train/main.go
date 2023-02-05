@@ -22,4 +22,5 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	var netFile string
 	var dataDir string
-	var stepS
+	var stepSize float64
+	var batchSize in
