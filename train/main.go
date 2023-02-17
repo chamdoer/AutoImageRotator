@@ -24,4 +24,5 @@ func main() {
 	var dataDir string
 	var stepSize float64
 	var batchSize int
-	flag.StringVar(&netFile, "net", "", "network fil
+	flag.StringVar(&netFile, "net", "", "network file")
+	flag.String
