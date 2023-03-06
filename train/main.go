@@ -26,4 +26,4 @@ func main() {
 	var batchSize int
 	flag.StringVar(&netFile, "net", "", "network file")
 	flag.StringVar(&dataDir, "data", "", "image directory")
-	flag.Float64Var(&stepSize, "s
+	flag.Float64Var(&stepSize, "step", 0.001, "SGD step si
