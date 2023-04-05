@@ -28,4 +28,6 @@ func main() {
 	flag.StringVar(&dataDir, "data", "", "image directory")
 	flag.Float64Var(&stepSize, "step", 0.001, "SGD step size")
 	flag.IntVar(&batchSize, "batch", 12, "SGD batch size")
-	flag.
+	flag.Parse()
+
+	if netFile == 
