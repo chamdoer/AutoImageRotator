@@ -30,4 +30,5 @@ func main() {
 	flag.IntVar(&batchSize, "batch", 12, "SGD batch size")
 	flag.Parse()
 
-	if netFile == "" || dataDir == ""
+	if netFile == "" || dataDir == "" {
+		essentials.Die("Requi
