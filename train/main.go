@@ -31,4 +31,4 @@ func main() {
 	flag.Parse()
 
 	if netFile == "" || dataDir == "" {
-		essentials.Die("Required flags: -net
+		essentials.Die("Required flags: -net and -data. See -help f
