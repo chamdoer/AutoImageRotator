@@ -34,4 +34,6 @@ func main() {
 		essentials.Die("Required flags: -net and -data. See -help for more.")
 	}
 
-	log.Println("
+	log.Println("Loading network...")
+
+	var ne
