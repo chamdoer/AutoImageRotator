@@ -36,4 +36,5 @@ func main() {
 
 	log.Println("Loading network...")
 
-	var ne
+	var net *autorot.Net
+	if
