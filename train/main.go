@@ -37,4 +37,4 @@ func main() {
 	log.Println("Loading network...")
 
 	var net *autorot.Net
-	if
+	if err := serializer.Loa
