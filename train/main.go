@@ -38,4 +38,7 @@ func main() {
 
 	var net *autorot.Net
 	if err := serializer.LoadAny(netFile, &net); err != nil {
-		essentials.Die("Load network failed:", e
+		essentials.Die("Load network failed:", err)
+	}
+
+	log.Pri
