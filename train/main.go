@@ -41,4 +41,4 @@ func main() {
 		essentials.Die("Load network failed:", err)
 	}
 
-	log.Pri
+	log.Println("Loading samples...")
