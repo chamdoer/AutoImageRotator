@@ -44,4 +44,5 @@ func main() {
 	log.Println("Loading samples...")
 
 	samples, err := autorot.ReadSampleList(net.InputSize, dataDir)
-	if err != nil 
+	if err != nil {
+		essentials.Die("L
