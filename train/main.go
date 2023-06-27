@@ -48,3 +48,6 @@ func main() {
 		essentials.Die("Load data failed:", err)
 	}
 
+	log.Println("Training...")
+
+	t
