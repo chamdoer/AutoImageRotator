@@ -45,4 +45,6 @@ func main() {
 
 	samples, err := autorot.ReadSampleList(net.InputSize, dataDir)
 	if err != nil {
-		essentials.Die("L
+		essentials.Die("Load data failed:", err)
+	}
+
