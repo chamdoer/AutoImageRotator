@@ -51,4 +51,6 @@ func main() {
 	log.Println("Training...")
 
 	t := &anyff.Trainer{
-		Net:
+		Net:     net.Net,
+		Cost:    net,
+	
