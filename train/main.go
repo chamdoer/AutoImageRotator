@@ -56,3 +56,6 @@ func main() {
 		Params:  net.Net.Parameters(),
 		Average: true,
 	}
+
+	var iterNum int
+	s := &a
