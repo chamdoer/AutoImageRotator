@@ -53,4 +53,4 @@ func main() {
 	t := &anyff.Trainer{
 		Net:     net.Net,
 		Cost:    net,
-	
+		Params:  net.Net.Param
