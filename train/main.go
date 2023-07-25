@@ -53,4 +53,6 @@ func main() {
 	t := &anyff.Trainer{
 		Net:     net.Net,
 		Cost:    net,
-		Params:  net.Net.Param
+		Params:  net.Net.Parameters(),
+		Average: true,
+	}
