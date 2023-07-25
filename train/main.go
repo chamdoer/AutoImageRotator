@@ -58,4 +58,5 @@ func main() {
 	}
 
 	var iterNum int
-	s := &a
+	s := &anysgd.SGD{
+		Fetcher:     t
