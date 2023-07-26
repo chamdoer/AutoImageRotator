@@ -59,4 +59,6 @@ func main() {
 
 	var iterNum int
 	s := &anysgd.SGD{
-		Fetcher:     t
+		Fetcher:     t,
+		Gradienter:  t,
+		Trans
