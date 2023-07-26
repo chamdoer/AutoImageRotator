@@ -61,4 +61,5 @@ func main() {
 	s := &anysgd.SGD{
 		Fetcher:     t,
 		Gradienter:  t,
-		Trans
+		Transformer: &anysgd.Adam{},
+		Samples:
