@@ -62,4 +62,5 @@ func main() {
 		Fetcher:     t,
 		Gradienter:  t,
 		Transformer: &anysgd.Adam{},
-		Samples:
+		Samples:     samples,
+		Rater:     
