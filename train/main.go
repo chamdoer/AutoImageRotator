@@ -63,4 +63,5 @@ func main() {
 		Gradienter:  t,
 		Transformer: &anysgd.Adam{},
 		Samples:     samples,
-		Rater:       anysgd.ConstRater(stepSiz
+		Rater:       anysgd.ConstRater(stepSize),
+		BatchSize:   ba
