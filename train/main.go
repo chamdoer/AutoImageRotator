@@ -64,4 +64,5 @@ func main() {
 		Transformer: &anysgd.Adam{},
 		Samples:     samples,
 		Rater:       anysgd.ConstRater(stepSize),
-		BatchSize:   ba
+		BatchSize:   batchSize,
+		StatusFunc:
