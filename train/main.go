@@ -65,4 +65,4 @@ func main() {
 		Samples:     samples,
 		Rater:       anysgd.ConstRater(stepSize),
 		BatchSize:   batchSize,
-		StatusFunc:
+		StatusFunc: func(b anysgd.Ba
