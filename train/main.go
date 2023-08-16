@@ -66,4 +66,5 @@ func main() {
 		Rater:       anysgd.ConstRater(stepSize),
 		BatchSize:   batchSize,
 		StatusFunc: func(b anysgd.Batch) {
-			log.Printf("iter %d: cost=%v", i
+			log.Printf("iter %d: cost=%v", iterNum, t.LastCost)
+			i
