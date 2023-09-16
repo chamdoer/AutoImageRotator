@@ -71,4 +71,4 @@ func main() {
 		},
 	}
 
-	s.Run
+	s.Run(rip.NewRIP().
