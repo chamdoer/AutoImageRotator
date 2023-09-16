@@ -67,4 +67,8 @@ func main() {
 		BatchSize:   batchSize,
 		StatusFunc: func(b anysgd.Batch) {
 			log.Printf("iter %d: cost=%v", iterNum, t.LastCost)
-			i
+			iterNum++
+		},
+	}
+
+	s.Run
