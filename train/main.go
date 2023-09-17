@@ -73,4 +73,5 @@ func main() {
 
 	s.Run(rip.NewRIP().Chan())
 
-	log.Println("Saving ne
+	log.Println("Saving network...")
+	if err := serializer.
