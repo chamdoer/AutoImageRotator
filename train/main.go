@@ -71,4 +71,6 @@ func main() {
 		},
 	}
 
-	s.Run(rip.NewRIP().
+	s.Run(rip.NewRIP().Chan())
+
+	log.Println("Saving ne
