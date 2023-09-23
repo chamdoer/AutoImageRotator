@@ -74,4 +74,5 @@ func main() {
 	s.Run(rip.NewRIP().Chan())
 
 	log.Println("Saving network...")
-	if err := serializer.SaveAny(netFile, ne
+	if err := serializer.SaveAny(netFile, net); err != nil {
+		essentials.Die
