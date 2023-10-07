@@ -75,4 +75,6 @@ func main() {
 
 	log.Println("Saving network...")
 	if err := serializer.SaveAny(netFile, net); err != nil {
-		essentials.Die
+		essentials.Die("Save failed:", err)
+	}
+}
