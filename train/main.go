@@ -79,4 +79,5 @@ func main() {
 	}
 }
 
-func dieUsage
+func dieUsage() {
+	fmt.Fprintln(os.Stde
