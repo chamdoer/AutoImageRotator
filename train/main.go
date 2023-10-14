@@ -78,3 +78,5 @@ func main() {
 		essentials.Die("Save failed:", err)
 	}
 }
+
+func dieUsage
