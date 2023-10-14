@@ -80,4 +80,4 @@ func main() {
 }
 
 func dieUsage() {
-	fmt.Fprintln(os.Stderr, "Usage: train <net_file
+	fmt.Fprintln(os.Stderr, "Usage: train <net_file> <image_dir> [in_si
