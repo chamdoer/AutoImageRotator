@@ -1,3 +1,3 @@
 # AutoImageRotator
 
-T
+The goal of this project is to use M
