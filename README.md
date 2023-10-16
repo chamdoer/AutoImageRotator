@@ -1,1 +1,3 @@
-#
+# AutoImageRotator
+
+T
