@@ -1,3 +1,3 @@
 # AutoImageRotator
 
-The goal of this project is to use M
+The goal of this project is to use Machine Learning to detect
